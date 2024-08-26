@@ -371,13 +371,6 @@ class _CartScreenState extends State<CartScreen> {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     ReusableRow(
-                        title: 'Sub Total',
-                        value: r'$' + value.getTotalPrice().toStringAsFixed(2)),
-                    ReusableRow(
-                        title: 'Discount',
-                        value:
-                            r' 5%' + value.getTotalPrice().toStringAsFixed(2)),
-                    ReusableRow(
                         title: 'Total',
                         value: r'$' + value.getTotalPrice().toStringAsFixed(2))
                   ],
